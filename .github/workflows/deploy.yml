@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        aws s3 sync . s3://your-bucket-name --exclude '.git*' --exclude '.github*' --delete
+        aws s3 sync . s3://ifc-web-viewer --exclude '.git*' --exclude '.github*' --delete
